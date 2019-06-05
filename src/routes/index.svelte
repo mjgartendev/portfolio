@@ -64,17 +64,17 @@
 <section class="features">
 <ul>
 	<li>
-		<h3>Cloud Lover</h3>
+		<h3>🌥️ Cloud Lover 🌩️</h3>
 		<p>Local CLI's & IDE's are super cool, but cloud tools are the cat's meow. And cloud IDE's with container-backed CLI's are probably the bee's knees.</p>
 		<p>I've done everything from .NET Core API deployments with custom logging and performance monitoring on Azure, AWS & Google Cloud, to headless CMS powered PWA's deployed all static and free basically anywhere.</p>
 	</li>
 	<li>
-		<h3>Web Developer</h3>
+		<h3>💻 Web Developer 🌎</h3>
 		<p>I've spent a lot of time debugging unpleasant applications in legacy environments. That's a lot of time nobody is getting back, and for that reason I'm obssessed with writing minimal-dependency, lightning-fast code.</p>
 		<p>I'm an explorer of the native web platform and comfortable with any component based framework. Typescript, async/await, flat-maps, shadow dom, named slots, custom props, and css grid are all cool too.</p>
 	</li>
 	<li>
-		<h3>Corporate Survivor</h3>
+		<h3>👔 Corporate Survivor 💼</h3>
 		<p>I have a Marketing Management degree and tons of years in personal sales, project management, and client-facing roles. I have a pretty good idea what gets the stakeholders out of bed in the morning.</p>
 		<p>But please don't make me sell things. I'd rather spend time building something that sells itself.</p>
 	</li>

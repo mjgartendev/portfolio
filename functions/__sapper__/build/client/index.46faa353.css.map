@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "index.46faa353.css",
+  "sources": [
+    "..\\..\\..\\..\\..\\..\\src\\routes\\admin\\index.svelte"
+  ],
+  "sourcesContent": [
+    "<h2>Welcome, Admin</h2>\r\n<section>\r\n<div id=\"md-input\"></div>\r\n<div id=\"md-output\"></div>\r\n</section>\r\n\r\n<style>\r\n  section{\r\n    display: flex;\r\n    justify-content: space-between;\r\n  }\r\n  div{\r\n    flex: 1 1 auto;\r\n    border: 1px solid #ccc;\r\n  }\r\n  #md-input {\r\n    background: #f1f1f1;\r\n  }\r\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAOE,sBAAO,CAAC,AACN,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,AAChC,CAAC,AACD,kBAAG,CAAC,AACF,IAAI,CAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CACd,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,IAAI,AACxB,CAAC,AACD,SAAS,eAAC,CAAC,AACT,UAAU,CAAE,OAAO,AACrB,CAAC"
+}

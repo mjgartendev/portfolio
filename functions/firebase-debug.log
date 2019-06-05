@@ -1,0 +1,38 @@
+[debug] [2019-06-05T17:02:12.907Z] ----------------------------------------------------------------------
+[debug] [2019-06-05T17:02:12.909Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mjgar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-06-05T17:02:12.909Z] CLI Version:   6.11.0
+[debug] [2019-06-05T17:02:12.909Z] Platform:      win32
+[debug] [2019-06-05T17:02:12.909Z] Node Version:  v10.1.0
+[debug] [2019-06-05T17:02:12.910Z] Time:          Wed Jun 05 2019 12:02:12 GMT-0500 (Central Daylight Time)
+[debug] [2019-06-05T17:02:12.910Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-05T17:02:12.920Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-05T17:02:12.921Z] > authorizing via signed-in user
+[debug] [2019-06-05T17:02:12.921Z] [iam] checking project mjgarten-portfolio for permissions ["firebase.projects.get"]
+[debug] [2019-06-05T17:02:12.922Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mjgarten-portfolio:testIamPermissions  
+
+[debug] [2019-06-05T17:02:13.248Z] <<< HTTP RESPONSE 200
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[debug] [2019-06-05T17:02:13.256Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mjgarten-portfolio  
+ 
+[debug] [2019-06-05T17:02:13.450Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-05T17:02:13.450Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/611982314989:getServerAppConfig  
+ 
+[debug] [2019-06-05T17:02:13.623Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5001
+[debug] [2019-06-05T17:02:13.629Z] [functions] Watching "C:\Users\mjgar\repos\sapper\mjgarten-site\functions" for Cloud Functions...
+[debug] [2019-06-05T17:02:14.014Z] DEBUG: Functions runtime initialized.
+[debug] [2019-06-05T17:02:14.014Z] DEBUG: Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2019-06-05T17:02:14.709Z] DEBUG: firebase-admin has been stubbed.
+[warn] !  Error: Cannot find module './__sapper__/build/server/server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:571:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:497:25)
+    at Module.require (internal/modules/cjs/loader.js:626:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\Users\mjgar\repos\sapper\mjgarten-site\functions\index.js:5:20)
+    at Module._compile (internal/modules/cjs/loader.js:678:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:689:10)
+    at Module.load (internal/modules/cjs/loader.js:589:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:528:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:520:3)
+[warn] !  Your function was killed because it raised an unhandled error.

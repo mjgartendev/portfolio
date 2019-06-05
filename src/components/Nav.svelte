@@ -32,8 +32,8 @@
 
 <nav>
 	<a rel=prefetch class='{segment === "links" ? "selected" : ""}' href='links'>links</a>
-	<a rel=prefetch class='{segment === "portfolio" ? "selected" : ""}' href='portfolio'>portfolio</a>
-	<a class='{segment === undefined ? "selected" : ""} title' href='.'>mjgartendev</a>
 	<a rel=prefetch class='{segment === "resume" ? "selected" : ""}' href='resume'>resume</a>
+	<a class='{segment === undefined ? "selected" : ""} title' href='.'>mjgartendev</a>
+	<a rel=prefetch class='{segment === "portfolio" ? "selected" : ""}' href='portfolio'>portfolio</a>
 	<a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
 </nav>

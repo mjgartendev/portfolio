@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "resume.71d12c27.css",
+  "sources": [
+    "..\\..\\..\\..\\..\\..\\src\\routes\\resume.svelte"
+  ],
+  "sourcesContent": [
+    "<h2>Resume</h2>\r\n\r\n<a href=\"https://mjgartendev.github.io/\" target=\"_blank\" alt=\"michael garten's online resume\">Web Resume</a>\r\n<a href=\"./michael_garten-resume.pdf\" target=\"_blank\" alt=\"michael garten's pdf resume\">PDF Resume</a>\r\n\r\n<style>\r\n  h2{\r\n    padding-bottom: 3rem;\r\n    margin-bottom: 3rem;\r\n  }\r\n  a{\r\n    margin: 2rem;\r\n    padding: 2rem;\r\n    width: 2rem;\r\n    height: 2rem;\r\n    background: var(--primary);\r\n    color: white;\r\n    text-decoration: none;\r\n    font-weight: bold;\r\n    cursor: pointer;\r\n    border-radius: var(--radius);\r\n  }\r\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAME,iBAAE,CAAC,AACD,cAAc,CAAE,IAAI,CACpB,aAAa,CAAE,IAAI,AACrB,CAAC,AACD,gBAAC,CAAC,AACA,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,IAAI,SAAS,CAAC,CAC1B,KAAK,CAAE,KAAK,CACZ,eAAe,CAAE,IAAI,CACrB,WAAW,CAAE,IAAI,CACjB,MAAM,CAAE,OAAO,CACf,aAAa,CAAE,IAAI,QAAQ,CAAC,AAC9B,CAAC"
+}
