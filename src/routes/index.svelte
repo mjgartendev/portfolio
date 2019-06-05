@@ -57,9 +57,9 @@
 </svelte:head>
 
 <section class="hero">
-<h1>Hi! I'm Michael</h1>
-<h2>Cloud Software Engineer Extraordinaire</h2>
-<a class="cta" href="links">View links to stuff </a>
+	<h1>Hi! I'm Michael</h1>
+	<h2>Cloud Software Engineer Extraordinaire</h2>
+	<a class="cta" href="links">View links to stuff </a>
 </section>
 <section class="features">
 <ul>

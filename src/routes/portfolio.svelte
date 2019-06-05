@@ -11,6 +11,7 @@
 		<a href={project.href} target="_blank">{project.name}</a>
 		<p>{project.description}</p>
 	</li>
+	<hr>
 	{/each}
 </ul>
 <script>
@@ -23,3 +24,13 @@
 
 	]
 </script>
+
+<style>
+  a{
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
+  p{
+    font-weight: bold;
+  }
+</style>

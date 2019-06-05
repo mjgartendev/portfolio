@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "resume.357a5adf.css",
+  "sources": [
+    "..\\..\\..\\..\\..\\..\\..\\src\\routes\\resume.svelte"
+  ],
+  "sourcesContent": [
+    "<svelte:head>\r\n\t<title>Michael Garten | Resume</title>\r\n</svelte:head>\r\n\r\n<h2>Resume</h2>\r\n\r\n<uL>\r\n  <li>\r\n    <a href=\"https://mjgartendev.github.io/\" target=\"_blank\" alt=\"michael garten's online resume\">Web Resume</a>\r\n    <p>HTML version</p>\r\n  </li>\r\n  <hr>\r\n  <li>\r\n    <a href=\"./michael_garten-resume.pdf\" target=\"_blank\" alt=\"michael garten's pdf resume\">PDF Resume</a>\r\n    <p>Printable PDF Version</p>\r\n  </li>\r\n  <hr>\r\n</uL>\r\n\r\n<style>\r\n  a{\r\n    font-size: 1.5rem;\r\n    color: var(--primary);\r\n  }\r\n  </style>"
+  ],
+  "names": [],
+  "mappings": "AAoBE,eAAC,CAAC,AACA,SAAS,CAAE,MAAM,CACjB,KAAK,CAAE,IAAI,SAAS,CAAC,AACvB,CAAC"
+}

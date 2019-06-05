@@ -183,7 +183,7 @@ function create_ssr_component(fn) {
 
 const css = {
 	code: "h1.svelte-1j35tjc,h2.svelte-1j35tjc,h3.svelte-1j35tjc{font-weight:bold;text-align:center;margin:0 auto}h1.svelte-1j35tjc{font-size:2.25em;margin-bottom:1rem}h2.svelte-1j35tjc{font-size:1.75em}h3.svelte-1j35tjc{font-size:1.25em\n\t}p.svelte-1j35tjc{margin:.5em auto}ul.svelte-1j35tjc{margin:0;display:grid;grid-template-columns:repeat(3, 1fr);align-items:flex-start}li.svelte-1j35tjc{list-style:none;padding:1rem}a.cta.svelte-1j35tjc{margin:2rem;padding:.75rem 1.25rem;font-size:1.5rem;background:var(--primary);color:white;cursor:pointer;text-decoration:none;border-radius:var(--radius)}section.svelte-1j35tjc{display:flex;flex-direction:column;align-items:center;justify-content:space-around;padding:1rem}@media(max-width: 576px){ul.svelte-1j35tjc{grid-template-columns:1fr}}",
-	map: "{\"version\":3,\"file\":\"index.svelte\",\"sources\":[\"index.svelte\"],\"sourcesContent\":[\"<style>\\n\\th1, h2, h3{\\n\\t\\tfont-weight: bold;\\n\\t\\ttext-align: center;\\n\\t\\tmargin: 0 auto;\\n\\t}\\n\\th1 {\\n\\t\\tfont-size: 2.25em;\\n\\t\\tmargin-bottom: 1rem;\\n\\t}\\n\\th2{\\n\\t\\tfont-size: 1.75em;\\n\\t}\\n\\th3{\\n\\t\\tfont-size: 1.25em\\n\\t}\\n\\tp {\\n\\n\\t\\tmargin: .5em auto;\\n\\t}\\n\\tul{\\n\\t\\tmargin: 0;\\n\\t\\tdisplay: grid;\\n\\t\\tgrid-template-columns: repeat(3, 1fr);\\n\\t\\talign-items: flex-start;\\n\\t}\\n\\tli{\\n\\t\\tlist-style: none;\\n\\t\\tpadding: 1rem;\\n\\t}\\n\\ta.cta {\\n\\t\\tmargin: 2rem;\\n\\t\\tpadding: .75rem 1.25rem;\\n\\t\\tfont-size: 1.5rem;\\n\\t\\tbackground: var(--primary);\\n\\t\\tcolor: white;\\n\\t\\tcursor: pointer;\\n\\t\\ttext-decoration: none;\\n\\t\\tborder-radius: var(--radius);\\n\\t}\\n\\tsection {\\n\\t\\tdisplay: flex;\\n\\t\\tflex-direction: column;\\n\\t\\talign-items: center;\\n\\t\\tjustify-content: space-around;\\n\\t\\tpadding: 1rem;\\n\\t}\\n\\t@media (max-width: 576px) {\\n\\t\\tul{\\n\\t\\t\\tgrid-template-columns: 1fr;\\n\\t\\t}\\n\\t}\\n</style>\\n\\n<svelte:head>\\n\\t<title>Michael Garten | Personal Site</title>\\n</svelte:head>\\n\\n<section class=\\\"hero\\\">\\n<h1>Hi! I'm Michael</h1>\\n<h2>Cloud Software Engineer Extraordinaire</h2>\\n<a class=\\\"cta\\\" href=\\\"links\\\">View links to stuff </a>\\n</section>\\n<section class=\\\"features\\\">\\n<ul>\\n\\t<li>\\n\\t\\t<h3>🌥️ Cloud Lover 🌩️</h3>\\n\\t\\t<p>Local CLI's & IDE's are super cool, but cloud tools are the cat's meow. And cloud IDE's with container-backed CLI's are probably the bee's knees.</p>\\n\\t\\t<p>I've done everything from .NET Core API deployments with custom logging and performance monitoring on Azure, AWS & Google Cloud, to headless CMS powered PWA's deployed all static and free basically anywhere.</p>\\n\\t</li>\\n\\t<li>\\n\\t\\t<h3>💻 Web Developer 🌎</h3>\\n\\t\\t<p>I've spent a lot of time debugging unpleasant applications in legacy environments. That's a lot of time nobody is getting back, and for that reason I'm obssessed with writing minimal-dependency, lightning-fast code.</p>\\n\\t\\t<p>I'm an explorer of the native web platform and comfortable with any component based framework. Typescript, async/await, flat-maps, shadow dom, named slots, custom props, and css grid are all cool too.</p>\\n\\t</li>\\n\\t<li>\\n\\t\\t<h3>👔 Corporate Survivor 💼</h3>\\n\\t\\t<p>I have a Marketing Management degree and tons of years in personal sales, project management, and client-facing roles. I have a pretty good idea what gets the stakeholders out of bed in the morning.</p>\\n\\t\\t<p>But please don't make me sell things. I'd rather spend time building something that sells itself.</p>\\n\\t</li>\\n</ul>\\n</section>\"],\"names\":[],\"mappings\":\"AACC,iBAAE,CAAE,iBAAE,CAAE,iBAAE,CAAC,AACV,WAAW,CAAE,IAAI,CACjB,UAAU,CAAE,MAAM,CAClB,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AACD,EAAE,eAAC,CAAC,AACH,SAAS,CAAE,MAAM,CACjB,aAAa,CAAE,IAAI,AACpB,CAAC,AACD,iBAAE,CAAC,AACF,SAAS,CAAE,MAAM,AAClB,CAAC,AACD,iBAAE,CAAC,AACF,SAAS,CAAE,MAAM;CAClB,CAAC,AACD,CAAC,eAAC,CAAC,AAEF,MAAM,CAAE,IAAI,CAAC,IAAI,AAClB,CAAC,AACD,iBAAE,CAAC,AACF,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,CAAC,CAAC,CAAC,GAAG,CAAC,CACrC,WAAW,CAAE,UAAU,AACxB,CAAC,AACD,iBAAE,CAAC,AACF,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,AACd,CAAC,AACD,CAAC,IAAI,eAAC,CAAC,AACN,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,MAAM,CAAC,OAAO,CACvB,SAAS,CAAE,MAAM,CACjB,UAAU,CAAE,IAAI,SAAS,CAAC,CAC1B,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,OAAO,CACf,eAAe,CAAE,IAAI,CACrB,aAAa,CAAE,IAAI,QAAQ,CAAC,AAC7B,CAAC,AACD,OAAO,eAAC,CAAC,AACR,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,YAAY,CAC7B,OAAO,CAAE,IAAI,AACd,CAAC,AACD,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,iBAAE,CAAC,AACF,qBAAqB,CAAE,GAAG,AAC3B,CAAC,AACF,CAAC\"}"
+	map: "{\"version\":3,\"file\":\"index.svelte\",\"sources\":[\"index.svelte\"],\"sourcesContent\":[\"<style>\\n\\th1, h2, h3{\\n\\t\\tfont-weight: bold;\\n\\t\\ttext-align: center;\\n\\t\\tmargin: 0 auto;\\n\\t}\\n\\th1 {\\n\\t\\tfont-size: 2.25em;\\n\\t\\tmargin-bottom: 1rem;\\n\\t}\\n\\th2{\\n\\t\\tfont-size: 1.75em;\\n\\t}\\n\\th3{\\n\\t\\tfont-size: 1.25em\\n\\t}\\n\\tp {\\n\\n\\t\\tmargin: .5em auto;\\n\\t}\\n\\tul{\\n\\t\\tmargin: 0;\\n\\t\\tdisplay: grid;\\n\\t\\tgrid-template-columns: repeat(3, 1fr);\\n\\t\\talign-items: flex-start;\\n\\t}\\n\\tli{\\n\\t\\tlist-style: none;\\n\\t\\tpadding: 1rem;\\n\\t}\\n\\ta.cta {\\n\\t\\tmargin: 2rem;\\n\\t\\tpadding: .75rem 1.25rem;\\n\\t\\tfont-size: 1.5rem;\\n\\t\\tbackground: var(--primary);\\n\\t\\tcolor: white;\\n\\t\\tcursor: pointer;\\n\\t\\ttext-decoration: none;\\n\\t\\tborder-radius: var(--radius);\\n\\t}\\n\\tsection {\\n\\t\\tdisplay: flex;\\n\\t\\tflex-direction: column;\\n\\t\\talign-items: center;\\n\\t\\tjustify-content: space-around;\\n\\t\\tpadding: 1rem;\\n\\t}\\n\\t@media (max-width: 576px) {\\n\\t\\tul{\\n\\t\\t\\tgrid-template-columns: 1fr;\\n\\t\\t}\\n\\t}\\n</style>\\n\\n<svelte:head>\\n\\t<title>Michael Garten | Personal Site</title>\\n</svelte:head>\\n\\n<section class=\\\"hero\\\">\\n\\t<h1>Hi! I'm Michael</h1>\\n\\t<h2>Cloud Software Engineer Extraordinaire</h2>\\n\\t<a class=\\\"cta\\\" href=\\\"links\\\">View links to stuff </a>\\n</section>\\n<section class=\\\"features\\\">\\n<ul>\\n\\t<li>\\n\\t\\t<h3>🌥️ Cloud Lover 🌩️</h3>\\n\\t\\t<p>Local CLI's & IDE's are super cool, but cloud tools are the cat's meow. And cloud IDE's with container-backed CLI's are probably the bee's knees.</p>\\n\\t\\t<p>I've done everything from .NET Core API deployments with custom logging and performance monitoring on Azure, AWS & Google Cloud, to headless CMS powered PWA's deployed all static and free basically anywhere.</p>\\n\\t</li>\\n\\t<li>\\n\\t\\t<h3>💻 Web Developer 🌎</h3>\\n\\t\\t<p>I've spent a lot of time debugging unpleasant applications in legacy environments. That's a lot of time nobody is getting back, and for that reason I'm obssessed with writing minimal-dependency, lightning-fast code.</p>\\n\\t\\t<p>I'm an explorer of the native web platform and comfortable with any component based framework. Typescript, async/await, flat-maps, shadow dom, named slots, custom props, and css grid are all cool too.</p>\\n\\t</li>\\n\\t<li>\\n\\t\\t<h3>👔 Corporate Survivor 💼</h3>\\n\\t\\t<p>I have a Marketing Management degree and tons of years in personal sales, project management, and client-facing roles. I have a pretty good idea what gets the stakeholders out of bed in the morning.</p>\\n\\t\\t<p>But please don't make me sell things. I'd rather spend time building something that sells itself.</p>\\n\\t</li>\\n</ul>\\n</section>\"],\"names\":[],\"mappings\":\"AACC,iBAAE,CAAE,iBAAE,CAAE,iBAAE,CAAC,AACV,WAAW,CAAE,IAAI,CACjB,UAAU,CAAE,MAAM,CAClB,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AACD,EAAE,eAAC,CAAC,AACH,SAAS,CAAE,MAAM,CACjB,aAAa,CAAE,IAAI,AACpB,CAAC,AACD,iBAAE,CAAC,AACF,SAAS,CAAE,MAAM,AAClB,CAAC,AACD,iBAAE,CAAC,AACF,SAAS,CAAE,MAAM;CAClB,CAAC,AACD,CAAC,eAAC,CAAC,AAEF,MAAM,CAAE,IAAI,CAAC,IAAI,AAClB,CAAC,AACD,iBAAE,CAAC,AACF,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,CAAC,CAAC,CAAC,GAAG,CAAC,CACrC,WAAW,CAAE,UAAU,AACxB,CAAC,AACD,iBAAE,CAAC,AACF,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,AACd,CAAC,AACD,CAAC,IAAI,eAAC,CAAC,AACN,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,MAAM,CAAC,OAAO,CACvB,SAAS,CAAE,MAAM,CACjB,UAAU,CAAE,IAAI,SAAS,CAAC,CAC1B,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,OAAO,CACf,eAAe,CAAE,IAAI,CACrB,aAAa,CAAE,IAAI,QAAQ,CAAC,AAC7B,CAAC,AACD,OAAO,eAAC,CAAC,AACR,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,YAAY,CAC7B,OAAO,CAAE,IAAI,AACd,CAAC,AACD,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,iBAAE,CAAC,AACF,qBAAqB,CAAE,GAAG,AAC3B,CAAC,AACF,CAAC\"}"
 };
 
 const Index = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
@@ -192,9 +192,9 @@ const Index = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 	return `${($$result.head += `<title>Michael Garten | Personal Site</title>`, "")}
 
 	<section class="hero svelte-1j35tjc">
-	<h1 class="svelte-1j35tjc">Hi! I'm Michael</h1>
-	<h2 class="svelte-1j35tjc">Cloud Software Engineer Extraordinaire</h2>
-	<a class="cta svelte-1j35tjc" href="links">View links to stuff </a>
+		<h1 class="svelte-1j35tjc">Hi! I'm Michael</h1>
+		<h2 class="svelte-1j35tjc">Cloud Software Engineer Extraordinaire</h2>
+		<a class="cta svelte-1j35tjc" href="links">View links to stuff </a>
 	</section>
 	<section class="features svelte-1j35tjc">
 	<ul class="svelte-1j35tjc">
@@ -219,6 +219,11 @@ const Index = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 
 /* src\routes\portfolio.svelte generated by Svelte v3.4.4 */
 
+const css$1 = {
+	code: "a.svelte-mxz19y{font-size:1.5rem;color:var(--primary)}p.svelte-mxz19y{font-weight:bold}",
+	map: "{\"version\":3,\"file\":\"portfolio.svelte\",\"sources\":[\"portfolio.svelte\"],\"sourcesContent\":[\"<svelte:head>\\n\\t<title>Michael Garten | Portfolio</title>\\n</svelte:head>\\n\\n<h1>Portfolio</h1>\\n\\n<h2>Links to some of my better examples</h2>\\n<ul>\\n\\t{#each projects as project}\\n\\t<li>\\n\\t\\t<a href={project.href} target=\\\"_blank\\\">{project.name}</a>\\n\\t\\t<p>{project.description}</p>\\n\\t</li>\\n\\t<hr>\\n\\t{/each}\\n</ul>\\n<script>\\n\\tlet projects = [\\n\\t\\t{name: \\\"Monaco Editor Playground\\\", description: \\\"Component IDE using Monaco Editor wrapped with Svelte 3, backed by Firestore realtime data\\\", href:\\\"https://fullstackvoyage.com\\\"},\\n\\t\\t{name: \\\"Lit-Element Kanban-ish Board\\\", description: \\\"Some different list components and things using typescript and Lit-Element\\\", href:\\\"https://stackblitz.com/edit/lit-el-playground\\\"},\\n\\t\\t{name: \\\"Lit-Element App Layout Components\\\", description: \\\"Example using a few components to create a very dynamic, configurable app layout\\\", href:\\\"https://codepen.io/mjgartendev/pen/eoqWwV\\\"},\\n\\t\\t{name: \\\"Browser based IDE for bundling ES Modules (UI only)\\\", description: \\\"Layout only of my dream project. A reimagined, simplified, browser only development environment\\\", href:\\\"https://codepen.io/mjgartendev/full/zQOLqW\\\"},\\n\\t\\t{name: \\\"Svelte CSS Grid Editor\\\", description: \\\"A super simple CSS Grid App Layout designer\\\", href:\\\"https://stackblitz.com/edit/svelte-dynagrid-rk12va\\\"}\\n\\n\\t]\\n</script>\\n\\n<style>\\n  a{\\n    font-size: 1.5rem;\\n    color: var(--primary);\\n  }\\n  p{\\n    font-weight: bold;\\n  }\\n</style>\\n\"],\"names\":[],\"mappings\":\"AA4BE,eAAC,CAAC,AACA,SAAS,CAAE,MAAM,CACjB,KAAK,CAAE,IAAI,SAAS,CAAC,AACvB,CAAC,AACD,eAAC,CAAC,AACA,WAAW,CAAE,IAAI,AACnB,CAAC\"}"
+};
+
 const Portfolio = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 	let projects = [
 		{name: "Monaco Editor Playground", description: "Component IDE using Monaco Editor wrapped with Svelte 3, backed by Firestore realtime data", href:"https://fullstackvoyage.com"},
@@ -229,6 +234,8 @@ const Portfolio = create_ssr_component(($$result, $$props, $$bindings, $$slots) 
 
 	];
 
+	$$result.css.add(css$1);
+
 	return `${($$result.head += `<title>Michael Garten | Portfolio</title>`, "")}
 
 	<h1>Portfolio</h1>
@@ -236,37 +243,50 @@ const Portfolio = create_ssr_component(($$result, $$props, $$bindings, $$slots) 
 	<h2>Links to some of my better examples</h2>
 	<ul>
 		${each(projects, (project) => `<li>
-			<a${(v => v == null ? "" : ` href="${escape(project.href)}"`)(project.href)} target="_blank">${escape(project.name)}</a>
-			<p>${escape(project.description)}</p>
-		</li>`)}
+			<a${(v => v == null ? "" : ` href="${escape(project.href)}"`)(project.href)} target="_blank" class="svelte-mxz19y">${escape(project.name)}</a>
+			<p class="svelte-mxz19y">${escape(project.description)}</p>
+		</li>
+		<hr>`)}
 	</ul>`;
 });
 
 /* src\routes\resume.svelte generated by Svelte v3.4.4 */
 
-const css$1 = {
-	code: "h2.svelte-1kgl72j{padding-bottom:3rem;margin-bottom:3rem}a.svelte-1kgl72j{margin:2rem;padding:2rem;width:2rem;height:2rem;background:var(--primary);color:white;text-decoration:none;font-weight:bold;cursor:pointer;border-radius:var(--radius)}",
-	map: "{\"version\":3,\"file\":\"resume.svelte\",\"sources\":[\"resume.svelte\"],\"sourcesContent\":[\"<h2>Resume</h2>\\r\\n\\r\\n<a href=\\\"https://mjgartendev.github.io/\\\" target=\\\"_blank\\\" alt=\\\"michael garten's online resume\\\">Web Resume</a>\\r\\n<a href=\\\"./michael_garten-resume.pdf\\\" target=\\\"_blank\\\" alt=\\\"michael garten's pdf resume\\\">PDF Resume</a>\\r\\n\\r\\n<style>\\r\\n  h2{\\r\\n    padding-bottom: 3rem;\\r\\n    margin-bottom: 3rem;\\r\\n  }\\r\\n  a{\\r\\n    margin: 2rem;\\r\\n    padding: 2rem;\\r\\n    width: 2rem;\\r\\n    height: 2rem;\\r\\n    background: var(--primary);\\r\\n    color: white;\\r\\n    text-decoration: none;\\r\\n    font-weight: bold;\\r\\n    cursor: pointer;\\r\\n    border-radius: var(--radius);\\r\\n  }\\r\\n</style>\"],\"names\":[],\"mappings\":\"AAME,iBAAE,CAAC,AACD,cAAc,CAAE,IAAI,CACpB,aAAa,CAAE,IAAI,AACrB,CAAC,AACD,gBAAC,CAAC,AACA,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,IAAI,SAAS,CAAC,CAC1B,KAAK,CAAE,KAAK,CACZ,eAAe,CAAE,IAAI,CACrB,WAAW,CAAE,IAAI,CACjB,MAAM,CAAE,OAAO,CACf,aAAa,CAAE,IAAI,QAAQ,CAAC,AAC9B,CAAC\"}"
+const css$2 = {
+	code: "a.svelte-nriczr{font-size:1.5rem;color:var(--primary)}",
+	map: "{\"version\":3,\"file\":\"resume.svelte\",\"sources\":[\"resume.svelte\"],\"sourcesContent\":[\"<svelte:head>\\r\\n\\t<title>Michael Garten | Resume</title>\\r\\n</svelte:head>\\r\\n\\r\\n<h2>Resume</h2>\\r\\n\\r\\n<uL>\\r\\n  <li>\\r\\n    <a href=\\\"https://mjgartendev.github.io/\\\" target=\\\"_blank\\\" alt=\\\"michael garten's online resume\\\">Web Resume</a>\\r\\n    <p>HTML version</p>\\r\\n  </li>\\r\\n  <hr>\\r\\n  <li>\\r\\n    <a href=\\\"./michael_garten-resume.pdf\\\" target=\\\"_blank\\\" alt=\\\"michael garten's pdf resume\\\">PDF Resume</a>\\r\\n    <p>Printable PDF Version</p>\\r\\n  </li>\\r\\n  <hr>\\r\\n</uL>\\r\\n\\r\\n<style>\\r\\n  a{\\r\\n    font-size: 1.5rem;\\r\\n    color: var(--primary);\\r\\n  }\\r\\n  </style>\"],\"names\":[],\"mappings\":\"AAoBE,eAAC,CAAC,AACA,SAAS,CAAE,MAAM,CACjB,KAAK,CAAE,IAAI,SAAS,CAAC,AACvB,CAAC\"}"
 };
 
 const Resume = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
-	$$result.css.add(css$1);
+	$$result.css.add(css$2);
 
-	return `<h2 class="svelte-1kgl72j">Resume</h2>
+	return `${($$result.head += `<title>Michael Garten | Resume</title>`, "")}
 
-	<a href="https://mjgartendev.github.io/" target="_blank" alt="michael garten's online resume" class="svelte-1kgl72j">Web Resume</a>
-	<a href="./michael_garten-resume.pdf" target="_blank" alt="michael garten's pdf resume" class="svelte-1kgl72j">PDF Resume</a>`;
+	<h2>Resume</h2>
+
+	<uL>
+	  <li>
+	    <a href="https://mjgartendev.github.io/" target="_blank" alt="michael garten's online resume" class="svelte-nriczr">Web Resume</a>
+	    <p>HTML version</p>
+	  </li>
+	  <hr>
+	  <li>
+	    <a href="./michael_garten-resume.pdf" target="_blank" alt="michael garten's pdf resume" class="svelte-nriczr">PDF Resume</a>
+	    <p>Printable PDF Version</p>
+	  </li>
+	  <hr>
+	</uL>`;
 });
 
 /* src\routes\admin\index.svelte generated by Svelte v3.4.4 */
 
-const css$2 = {
+const css$3 = {
 	code: "section.svelte-184x1k1{display:flex;justify-content:space-between}div.svelte-184x1k1{flex:1 1 auto;border:1px solid #ccc}#md-input.svelte-184x1k1{background:#f1f1f1}",
 	map: "{\"version\":3,\"file\":\"index.svelte\",\"sources\":[\"index.svelte\"],\"sourcesContent\":[\"<h2>Welcome, Admin</h2>\\r\\n<section>\\r\\n<div id=\\\"md-input\\\"></div>\\r\\n<div id=\\\"md-output\\\"></div>\\r\\n</section>\\r\\n\\r\\n<style>\\r\\n  section{\\r\\n    display: flex;\\r\\n    justify-content: space-between;\\r\\n  }\\r\\n  div{\\r\\n    flex: 1 1 auto;\\r\\n    border: 1px solid #ccc;\\r\\n  }\\r\\n  #md-input {\\r\\n    background: #f1f1f1;\\r\\n  }\\r\\n</style>\"],\"names\":[],\"mappings\":\"AAOE,sBAAO,CAAC,AACN,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,AAChC,CAAC,AACD,kBAAG,CAAC,AACF,IAAI,CAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CACd,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,IAAI,AACxB,CAAC,AACD,SAAS,eAAC,CAAC,AACT,UAAU,CAAE,OAAO,AACrB,CAAC\"}"
 };
 
 const Index$1 = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
-	$$result.css.add(css$2);
+	$$result.css.add(css$3);
 
 	return `<h2>Welcome, Admin</h2>
 	<section class="svelte-184x1k1">
@@ -277,7 +297,7 @@ const Index$1 = create_ssr_component(($$result, $$props, $$bindings, $$slots) =>
 
 /* src\routes\links.svelte generated by Svelte v3.4.4 */
 
-const css$3 = {
+const css$4 = {
 	code: "a.svelte-1uo0upg{font-size:1.5rem;color:var(--primary)}p.svelte-1uo0upg{font-weight:bold}",
 	map: "{\"version\":3,\"file\":\"links.svelte\",\"sources\":[\"links.svelte\"],\"sourcesContent\":[\"<h1>Links</h1>\\r\\n<ul>\\r\\n  {#each links as link}\\r\\n  <a href={link.href} alt={link.description} target=\\\"_blank\\\">\\r\\n    <span class=\\\"{link.icon}\\\"></span> {link.name}\\r\\n  </a>\\r\\n  <p>{link.description}</p>\\r\\n  <hr>\\r\\n  {/each}\\r\\n</ul>\\r\\n\\r\\n<script>\\r\\n  let links = [\\r\\n    {name: \\\"github\\\", href: \\\"https://github.com/mjgartendev\\\", icon: \\\"fab fa-github\\\", description: \\\"My github profile. Stick to the pinned repos, beware the rest\\\"},\\r\\n    {name: \\\"LinkedIn\\\", href: \\\"https://www.linkedin.com/in/mjgarten/\\\", icon: \\\"fab fa-linkedin\\\", description: \\\"Contact me here\\\"},\\r\\n    {name: \\\"Codepen\\\", href: \\\"https://codepen.io/mjgartendev\\\", icon: \\\"fab fa-codepen\\\", description: \\\"A bunch of random samples of things I've been playing around with\\\"},\\r\\n    {name: \\\"FullStackVoyage\\\", href: \\\"https://fullstackvoyage.com\\\", icon: \\\"fas fa-user-astronaut\\\", description: \\\"A side project of mine; An IDE for sharing code snippets and tutorials.\\\"},\\r\\n    {name: \\\"Online Resume\\\", href:\\\"https://mjgartendev.github.io/\\\", icon: \\\"fas fa-briefcase\\\", description: \\\"An HTML version of my resume, hosted on Github\\\"} \\r\\n  ]\\r\\n</script>\\r\\n\\r\\n<style>\\r\\n  a{\\r\\n    font-size: 1.5rem;\\r\\n    color: var(--primary);\\r\\n  }\\r\\n  p{\\r\\n    font-weight: bold;\\r\\n  }\\r\\n</style>\"],\"names\":[],\"mappings\":\"AAsBE,gBAAC,CAAC,AACA,SAAS,CAAE,MAAM,CACjB,KAAK,CAAE,IAAI,SAAS,CAAC,AACvB,CAAC,AACD,gBAAC,CAAC,AACA,WAAW,CAAE,IAAI,AACnB,CAAC\"}"
 };
@@ -291,7 +311,7 @@ const Links = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
     {name: "Online Resume", href:"https://mjgartendev.github.io/", icon: "fas fa-briefcase", description: "An HTML version of my resume, hosted on Github"} 
   ];
 
-	$$result.css.add(css$3);
+	$$result.css.add(css$4);
 
 	return `<h1>Links</h1>
 	<ul>
@@ -305,7 +325,7 @@ const Links = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 
 /* src\routes\blog\index.svelte generated by Svelte v3.4.4 */
 
-const css$4 = {
+const css$5 = {
 	code: "ul.svelte-1frg2tf{margin:0 0 1em 0;line-height:1.5}",
 	map: "{\"version\":3,\"file\":\"index.svelte\",\"sources\":[\"index.svelte\"],\"sourcesContent\":[\"<script context=\\\"module\\\">\\n\\texport function preload({ params, query }) {\\n\\t\\treturn this.fetch(`blog.json`).then(r => r.json()).then(posts => {\\n\\t\\t\\treturn { posts };\\n\\t\\t});\\n\\t}\\n</script>\\n\\n<script>\\n\\texport let posts;\\n</script>\\n\\n<style>\\n\\tul {\\n\\t\\tmargin: 0 0 1em 0;\\n\\t\\tline-height: 1.5;\\n\\t}\\n</style>\\n\\n<svelte:head>\\n\\t<title>Blog</title>\\n</svelte:head>\\n\\n<h1>Recent posts</h1>\\n\\n<ul>\\n\\t{#each posts as post}\\n\\t\\t<!-- we're using the non-standard `rel=prefetch` attribute to\\n\\t\\t\\t\\ttell Sapper to load the data for the page as soon as\\n\\t\\t\\t\\tthe user hovers over the link or taps it, instead of\\n\\t\\t\\t\\twaiting for the 'click' event -->\\n\\t\\t<li><a rel='prefetch' href='blog/{post.slug}'>{post.title}</a></li>\\n\\t{/each}\\n</ul>\"],\"names\":[],\"mappings\":\"AAaC,EAAE,eAAC,CAAC,AACH,MAAM,CAAE,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,CACjB,WAAW,CAAE,GAAG,AACjB,CAAC\"}"
 };
@@ -321,7 +341,7 @@ const Index$2 = create_ssr_component(($$result, $$props, $$bindings, $$slots) =>
 
 	if ($$props.posts === void 0 && $$bindings.posts && posts !== void 0) $$bindings.posts(posts);
 
-	$$result.css.add(css$4);
+	$$result.css.add(css$5);
 
 	return `${($$result.head += `<title>Blog</title>`, "")}
 
@@ -335,7 +355,7 @@ const Index$2 = create_ssr_component(($$result, $$props, $$bindings, $$slots) =>
 
 /* src\routes\blog\[slug].svelte generated by Svelte v3.4.4 */
 
-const css$5 = {
+const css$6 = {
 	code: ".content.svelte-gnxal1 h2{font-size:1.4em;font-weight:500}.content.svelte-gnxal1 pre{background-color:#f9f9f9;box-shadow:inset 1px 1px 5px rgba(0,0,0,0.05);padding:0.5em;border-radius:2px;overflow-x:auto}.content.svelte-gnxal1 pre code{background-color:transparent;padding:0}.content.svelte-gnxal1 ul{line-height:1.5}.content.svelte-gnxal1 li{margin:0 0 0.5em 0}",
 	map: "{\"version\":3,\"file\":\"[slug].svelte\",\"sources\":[\"[slug].svelte\"],\"sourcesContent\":[\"<script context=\\\"module\\\">\\n\\texport async function preload({ params, query }) {\\n\\t\\t// the `slug` parameter is available because\\n\\t\\t// this file is called [slug].html\\n\\t\\tconst res = await this.fetch(`blog/${params.slug}.json`);\\n\\t\\tconst data = await res.json();\\n\\n\\t\\tif (res.status === 200) {\\n\\t\\t\\treturn { post: data };\\n\\t\\t} else {\\n\\t\\t\\tthis.error(res.status, data.message);\\n\\t\\t}\\n\\t}\\n</script>\\n\\n<script>\\n\\texport let post;\\n</script>\\n\\n<style>\\n\\t/*\\n\\t\\tBy default, CSS is locally scoped to the component,\\n\\t\\tand any unused styles are dead-code-eliminated.\\n\\t\\tIn this page, Svelte can't know which elements are\\n\\t\\tgoing to appear inside the {{{post.html}}} block,\\n\\t\\tso we have to use the :global(...) modifier to target\\n\\t\\tall elements inside .content\\n\\t*/\\n\\t.content :global(h2) {\\n\\t\\tfont-size: 1.4em;\\n\\t\\tfont-weight: 500;\\n\\t}\\n\\n\\t.content :global(pre) {\\n\\t\\tbackground-color: #f9f9f9;\\n\\t\\tbox-shadow: inset 1px 1px 5px rgba(0,0,0,0.05);\\n\\t\\tpadding: 0.5em;\\n\\t\\tborder-radius: 2px;\\n\\t\\toverflow-x: auto;\\n\\t}\\n\\n\\t.content :global(pre) :global(code) {\\n\\t\\tbackground-color: transparent;\\n\\t\\tpadding: 0;\\n\\t}\\n\\n\\t.content :global(ul) {\\n\\t\\tline-height: 1.5;\\n\\t}\\n\\n\\t.content :global(li) {\\n\\t\\tmargin: 0 0 0.5em 0;\\n\\t}\\n</style>\\n\\n<svelte:head>\\n\\t<title>{post.title}</title>\\n</svelte:head>\\n\\n<h1>{post.title}</h1>\\n\\n<div class='content'>\\n\\t{@html post.html}\\n</div>\"],\"names\":[],\"mappings\":\"AA4BC,sBAAQ,CAAC,AAAQ,EAAE,AAAE,CAAC,AACrB,SAAS,CAAE,KAAK,CAChB,WAAW,CAAE,GAAG,AACjB,CAAC,AAED,sBAAQ,CAAC,AAAQ,GAAG,AAAE,CAAC,AACtB,gBAAgB,CAAE,OAAO,CACzB,UAAU,CAAE,KAAK,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAC9C,OAAO,CAAE,KAAK,CACd,aAAa,CAAE,GAAG,CAClB,UAAU,CAAE,IAAI,AACjB,CAAC,AAED,sBAAQ,CAAC,AAAQ,GAAG,AAAC,CAAC,AAAQ,IAAI,AAAE,CAAC,AACpC,gBAAgB,CAAE,WAAW,CAC7B,OAAO,CAAE,CAAC,AACX,CAAC,AAED,sBAAQ,CAAC,AAAQ,EAAE,AAAE,CAAC,AACrB,WAAW,CAAE,GAAG,AACjB,CAAC,AAED,sBAAQ,CAAC,AAAQ,EAAE,AAAE,CAAC,AACrB,MAAM,CAAE,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,AACpB,CAAC\"}"
 };
@@ -358,7 +378,7 @@ const Slug = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 
 	if ($$props.post === void 0 && $$bindings.post && post !== void 0) $$bindings.post(post);
 
-	$$result.css.add(css$5);
+	$$result.css.add(css$6);
 
 	return `${($$result.head += `<title>${escape(post.title)}</title>`, "")}
 
@@ -371,7 +391,7 @@ const Slug = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 
 /* src\components\Nav.svelte generated by Svelte v3.4.4 */
 
-const css$6 = {
+const css$7 = {
 	code: "nav.svelte-190tddn{box-shadow:var(--shadow-sm);display:flex;flex-flow:row nowrap;align-items:center;justify-content:center;margin:0;padding:0;background:#fff}.selected.svelte-190tddn{color:var(--primary, mediumseagreen)}a.svelte-190tddn{text-decoration:none;padding:1em}.title.svelte-190tddn{font-weight:bold;color:var(--primary, mediumseagreen);margin:0 2rem}@media(max-width: 576px ){.title.svelte-190tddn{display:none}}",
 	map: "{\"version\":3,\"file\":\"Nav.svelte\",\"sources\":[\"Nav.svelte\"],\"sourcesContent\":[\"<script>\\n\\texport let segment;\\n</script>\\n\\n<style>\\n\\tnav {\\n\\t\\tbox-shadow: var(--shadow-sm);\\n\\t\\tdisplay: flex;\\n\\t\\tflex-flow: row nowrap;\\n\\t\\talign-items: center;\\n\\t\\tjustify-content: center;\\n\\t\\tmargin: 0;\\n\\t\\tpadding: 0;\\n\\t\\tbackground: #fff;\\n\\t}\\n\\t.selected {\\n\\t\\tcolor: var(--primary, mediumseagreen);\\n\\t}\\n\\ta {\\n\\t\\ttext-decoration: none;\\n\\t\\tpadding: 1em;\\n\\t}\\n\\t.title{\\n\\t\\tfont-weight: bold;\\n\\t\\tcolor: var(--primary, mediumseagreen);\\n\\t\\tmargin: 0 2rem;\\n\\t}\\n\\t@media(max-width: 576px ){\\n\\t\\t.title {display: none;}\\n\\t}\\n</style>\\n\\n<nav>\\n\\t<a rel=prefetch class='{segment === \\\"links\\\" ? \\\"selected\\\" : \\\"\\\"}' href='links'>links</a>\\n\\t<a rel=prefetch class='{segment === \\\"resume\\\" ? \\\"selected\\\" : \\\"\\\"}' href='resume'>resume</a>\\n\\t<a class='{segment === undefined ? \\\"selected\\\" : \\\"\\\"} title' href='.'>mjgartendev</a>\\n\\t<a rel=prefetch class='{segment === \\\"portfolio\\\" ? \\\"selected\\\" : \\\"\\\"}' href='portfolio'>portfolio</a>\\n\\t<a rel=prefetch class='{segment === \\\"blog\\\" ? \\\"selected\\\" : \\\"\\\"}' href='blog'>blog</a>\\n</nav>\"],\"names\":[],\"mappings\":\"AAKC,GAAG,eAAC,CAAC,AACJ,UAAU,CAAE,IAAI,WAAW,CAAC,CAC5B,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,GAAG,CAAC,MAAM,CACrB,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,MAAM,CACvB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,IAAI,AACjB,CAAC,AACD,SAAS,eAAC,CAAC,AACV,KAAK,CAAE,IAAI,SAAS,CAAC,eAAe,CAAC,AACtC,CAAC,AACD,CAAC,eAAC,CAAC,AACF,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,GAAG,AACb,CAAC,AACD,qBAAM,CAAC,AACN,WAAW,CAAE,IAAI,CACjB,KAAK,CAAE,IAAI,SAAS,CAAC,eAAe,CAAC,CACrC,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AACD,MAAM,YAAY,KAAK,EAAE,CAAC,AACzB,MAAM,eAAC,CAAC,OAAO,CAAE,IAAI,AAAC,CAAC,AACxB,CAAC\"}"
 };
@@ -381,7 +401,7 @@ const Nav = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 
 	if ($$props.segment === void 0 && $$bindings.segment && segment !== void 0) $$bindings.segment(segment);
 
-	$$result.css.add(css$6);
+	$$result.css.add(css$7);
 
 	return `<nav class="svelte-190tddn">
 		<a rel="prefetch" class="${escape(segment === "links" ? "selected" : "")} svelte-190tddn" href="links">links</a>
@@ -394,7 +414,7 @@ const Nav = create_ssr_component(($$result, $$props, $$bindings, $$slots) => {
 
 /* src\routes\_layout.svelte generated by Svelte v3.4.4 */
 
-const css$7 = {
+const css$8 = {
 	code: "main.svelte-uwz2rh{position:relative;max-width:90%;padding:1rem;margin:0 auto;box-sizing:border-box}@media(max-width: 576px){main.svelte-uwz2rh{max-width:95%}}",
 	map: "{\"version\":3,\"file\":\"_layout.svelte\",\"sources\":[\"_layout.svelte\"],\"sourcesContent\":[\"<script>\\n\\timport Nav from '../components/Nav.svelte';\\n\\n\\texport let segment;\\n</script>\\n\\n<style>\\n\\tmain {\\n\\t\\tposition: relative;\\n\\t\\tmax-width: 90%;\\n\\t\\tpadding: 1rem;\\n\\t\\tmargin: 0 auto;\\n\\t\\tbox-sizing: border-box;\\n\\t}\\n\\t@media(max-width: 576px){\\n\\t\\tmain{\\n\\t\\t\\tmax-width: 95%;\\n\\t\\t}\\n\\t}\\n</style>\\n\\n<Nav {segment}/>\\n\\n<main>\\n\\t<slot></slot>\\n</main>\"],\"names\":[],\"mappings\":\"AAOC,IAAI,cAAC,CAAC,AACL,QAAQ,CAAE,QAAQ,CAClB,SAAS,CAAE,GAAG,CACd,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,CAAC,CAAC,IAAI,CACd,UAAU,CAAE,UAAU,AACvB,CAAC,AACD,MAAM,YAAY,KAAK,CAAC,CAAC,AACxB,kBAAI,CAAC,AACJ,SAAS,CAAE,GAAG,AACf,CAAC,AACF,CAAC\"}"
 };
@@ -404,7 +424,7 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, $$slots) => 
 
 	if ($$props.segment === void 0 && $$bindings.segment && segment !== void 0) $$bindings.segment(segment);
 
-	$$result.css.add(css$7);
+	$$result.css.add(css$8);
 
 	return `${validate_component(Nav, 'Nav').$$render($$result, { segment: segment }, {}, {})}
 
@@ -415,7 +435,7 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, $$slots) => 
 
 /* src\routes\_error.svelte generated by Svelte v3.4.4 */
 
-const css$8 = {
+const css$9 = {
 	code: "h1.svelte-8od9u6,p.svelte-8od9u6{margin:0 auto}h1.svelte-8od9u6{font-size:2.8em;font-weight:700;margin:0 0 0.5em 0}p.svelte-8od9u6{margin:1em auto}@media(min-width: 480px){h1.svelte-8od9u6{font-size:4em}}",
 	map: "{\"version\":3,\"file\":\"_error.svelte\",\"sources\":[\"_error.svelte\"],\"sourcesContent\":[\"<script>\\n\\texport let status;\\n\\texport let error;\\n\\n\\tconst dev = undefined === 'development';\\n</script>\\n\\n<style>\\n\\th1, p {\\n\\t\\tmargin: 0 auto;\\n\\t}\\n\\n\\th1 {\\n\\t\\tfont-size: 2.8em;\\n\\t\\tfont-weight: 700;\\n\\t\\tmargin: 0 0 0.5em 0;\\n\\t}\\n\\n\\tp {\\n\\t\\tmargin: 1em auto;\\n\\t}\\n\\n\\t@media (min-width: 480px) {\\n\\t\\th1 {\\n\\t\\t\\tfont-size: 4em;\\n\\t\\t}\\n\\t}\\n</style>\\n\\n<svelte:head>\\n\\t<title>{status}</title>\\n</svelte:head>\\n\\n<h1>{status}</h1>\\n\\n<p>{error.message}</p>\\n\\n{#if dev && error.stack}\\n\\t<pre>{error.stack}</pre>\\n{/if}\\n\"],\"names\":[],\"mappings\":\"AAQC,gBAAE,CAAE,CAAC,cAAC,CAAC,AACN,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AAED,EAAE,cAAC,CAAC,AACH,SAAS,CAAE,KAAK,CAChB,WAAW,CAAE,GAAG,CAChB,MAAM,CAAE,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,AACpB,CAAC,AAED,CAAC,cAAC,CAAC,AACF,MAAM,CAAE,GAAG,CAAC,IAAI,AACjB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,EAAE,cAAC,CAAC,AACH,SAAS,CAAE,GAAG,AACf,CAAC,AACF,CAAC\"}"
 };
@@ -426,7 +446,7 @@ const Error$1 = create_ssr_component(($$result, $$props, $$bindings, $$slots) =>
 	if ($$props.status === void 0 && $$bindings.status && status !== void 0) $$bindings.status(status);
 	if ($$props.error === void 0 && $$bindings.error && error !== void 0) $$bindings.error(error);
 
-	$$result.css.add(css$8);
+	$$result.css.add(css$9);
 
 	return `${($$result.head += `<title>${escape(status)}</title>`, "")}
 

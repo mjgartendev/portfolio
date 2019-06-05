@@ -73,6 +73,9 @@ h6 {
 a {
   color: var(--dark);
 }
+li{
+  list-style-type: none;
+}
 
 code {
   font-family: menlo, inconsolata, monospace;
