@@ -14,7 +14,7 @@
     {name: "github", href: "https://github.com/mjgartendev", icon: "fab fa-github", description: "My github profile. Stick to the pinned repos, beware the rest"},
     {name: "LinkedIn", href: "https://www.linkedin.com/in/mjgarten/", icon: "fab fa-linkedin", description: "Contact me here"},
     {name: "Codepen", href: "https://codepen.io/mjgartendev", icon: "fab fa-codepen", description: "A bunch of random samples of things I've been playing around with"},
-    {name: "FullStackVoyage", href: "https://fullstackvoyage.com", icon: "fas fa-user-astronaut", description: "A side project of mine; An IDE for sharing code snippets and tutorials."},
+    {name: "SveltePlayground", href: "https://svelte-playground.web.app", icon: "fas fa-user-astronaut", description: "A side project of mine; An IDE for sharing code snippets and tutorials."},
     {name: "Online Resume", href:"https://mjgartendev.github.io/", icon: "fas fa-briefcase", description: "An HTML version of my resume, hosted on Github"} 
   ]
 </script>
